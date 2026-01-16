@@ -1,41 +1,81 @@
-# **Game with Hash Tables, Game Tree, and Enhancements**
+# Strategy Game Engine with Hash Tables and AI
 
-## **Overview**
+A Python-based strategy game engine demonstrating the implementation of custom data structures, game-tree–based decision making, and AI behavior using the Minimax algorithm.
 
-This repository contains the implementation of an **Assignment**. The assignment is designed to enhance understanding and application of data structures by building a game with multiple components:
+This project focuses on **core computer science concepts**, including hash tables, game trees, algorithmic evaluation, and system extensibility.
 
-- **Hash Tables** (Part A)
-- **Game Tree for AI Bot** (Part B)
-- **Game Enhancements** (Part C)
+---
 
-The project showcases the use of fundamental data structures, algorithms, and Python programming skills to implement and extend the game's functionality.
+## Overview
 
+The game engine is built around a turn-based board game and is designed to showcase how foundational data structures and algorithms can be applied to real problem-solving scenarios.
 
-## **Assignment Components**
+Key areas of focus include:
+- Custom data structure implementation
+- AI decision-making using Minimax
+- Game state evaluation
+- Feature extensions and usability improvements
 
-### **Part A: Hash Table Implementation**
-In this part, we implemented a custom **Hash Table** class with the following features:
-- **Initialization**: Create a hash table with a default capacity of 32.
-- **Insertion**: Insert key-value pairs while avoiding duplicates.
-- **Modification**: Update existing key-value pairs.
-- **Removal**: Delete key-value pairs by key.
-- **Search**: Retrieve the value associated with a key.
-- **Resizing**: Automatically resize the hash table when the load factor exceeds 0.7.
+---
 
-### **Part B: Game Tree for AI Bot**
-- A **game tree** was implemented to evaluate potential moves for a simple board game.
-- **Evaluation Function**: Scored the board based on the number and placement of gems.
-- **Minimax Algorithm**: Used to select the best possible move for the AI player, considering the opponent’s responses.
-- **Tree Construction**: Built a game tree up to a specified height to optimize performance.
+## Features & Components
 
-### **Part C: Game Improvements**
-This section involved extending the game with additional features. Some implemented improvements include:
-- Undo functionality for human players.
-- Animated gem overflow transitions.
-- Adjustable AI bot difficulty (based on tree height).
+### 🔹 Custom Hash Table
+A hash table was implemented from scratch to manage key-value data efficiently.
 
+**Capabilities:**
+- Default capacity of 32
+- Insertion without duplicate keys
+- Key-based lookup and updates
+- Removal of entries by key
+- Automatic resizing when load factor exceeds 0.7
 
+---
 
+### 🔹 Game Tree & AI Bot
+The AI player uses a game tree to evaluate possible moves and select the optimal action.
 
+**Implementation details:**
+- Game tree construction up to a configurable depth
+- Board evaluation based on gem placement and scoring
+- Minimax algorithm to simulate opponent responses
+- Performance optimization by limiting tree height
 
+---
 
+### 🔹 Game Enhancements
+Additional features were added to improve gameplay and usability.
+
+**Enhancements include:**
+- Undo functionality for human players
+- Animated gem overflow transitions
+- Adjustable AI difficulty based on game tree depth
+
+---
+
+## Technologies & Concepts
+- Python
+- Hash Tables
+- Game Trees
+- Minimax Algorithm
+- Algorithmic Problem Solving
+- Data Structures & Complexity
+
+---
+
+## What This Project Demonstrates
+- Strong understanding of fundamental data structures
+- Ability to design and implement AI logic
+- Practical application of algorithms in game scenarios
+- Writing modular, extensible Python code
+
+---
+
+## Repository
+👉 **Source code:**  
+[https://github.com/dibamackie/Python-game]
+
+---
+
+## Notes
+This project was developed as part of coursework, but has been structured and documented to reflect real-world software engineering practices and algorithmic design principles.
